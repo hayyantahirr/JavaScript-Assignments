@@ -189,10 +189,15 @@
 // the type of that variable is a "number", "string", "boolean" or
 // “undefined”
 
-// To be asked
+// let ask = prompt("write any value ");
 
-
-
+// if (ask == "true" || ask == "false") {
+//   console.log(`you have entered a boolean `);
+// } else if (isNaN(ask)) {
+//   document.write(`you have entered a string `);
+// } else {
+//   document.write(`you have entered a number `);
+// }
 
 // Q17  Write a program that takes a character (i.e. string of length 1)
 // and returns true if it is a vowel, false otherwise.
