@@ -114,7 +114,6 @@
 // After searching, prompt the user whether the given item is
 // found in the list or not. Example:
 
-
 // let p = document.querySelector("p");
 // let h1 = document.querySelector("h1");
 
@@ -135,11 +134,9 @@
 // array.
 // A = [24, 53, 78, 91, 12]
 
-
 // 10. Write a program to identify the smallest number in the given
 // array.
 // A = [24, 53, 78, 91, 12]
-
 
 // 11. Write a program to identify the largest & the smallest
 // number in the given array.
@@ -163,10 +160,69 @@
 
 // let table =document.querySelector('table')
 
-// for (let index = 0; index < array.length<scores.length; index++) {
-//   const element = array[index];
-  
+// 14. Write a program that prints number from start of the array
+// to desired stop value. Given array:
+// var scores = [12, 45, 3, 22, 34, 50];
+// (Hint: take stop value from user)
+// E.g. if user gives 3 as input value print 12, 45, 3
+// if user gives 34 as input value print 12, 45, 3, 22, 34
+
+// let scores = [12, 45, 3, 22, 34, 50];
+// let ask =prompt("enter a stop value ")
+
+// for (let i = 0; i < scores.length; i++) {
+//     if (i===ask) {
+
+//     }
+
 // }
 
+// 17. The even/odd reporter
+// Write a for loop that will iterate from 0 to 20. For each
+// iteration, it will check if the current number is even or odd, and
+// report that to the screen (e.g. "2 is even").
 
+// const h1 =document.querySelector('h1')
+// for (let i = 0; i <= 20; i++) {
+//   let num = 2;
+//   if (i % num === 0) {
+//     h1.innerHTML+=`<li>${i} is even</li> `
+//   } else {
+//     h1.innerHTML+=`<li>${i} is odd</li> `
+//   }
+// }
+
+// 18. Write a program to calculate the product of the odd integers
+// from 1 to 7.
+// const h1 =document.querySelector('h1')
+
+// let product = 1;
+
+// for (let i = 1; i <= 7; i += 2) {
+//   product *= i;
+// }
+
+// h1.innerHTML=`Product of odd integers from 1 to 7: ${product} `;
+
+
+
+// 19. Write a program that will write out a wedge of stars. The user
+// will enter the initial number of stars, and the program will write
+// out lines of stars where each line has one few star than the
+// previous line. Initial number of stars: 7
+// *******
+// ******
+// *****
+// ****
+// ***
+// **
+// *
+
+// let star =`*`
+
+// for (let i = 7; i > 0; i--) {
+//     star*=i
+//  console.log(star);
+    
+// }
 
